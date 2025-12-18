@@ -4,6 +4,7 @@ import SearchBar from "@/components/SearchBar";
 import DealCard from "@/components/DealCard";
 import StatsBar from "@/components/StatsBar";
 import FilterSidebar from "@/components/FilterSidebar";
+import ScrapingInfo from "@/components/ScrapingInfo";
 import { toast } from "sonner";
 import { Plane, Ship, TrendingDown } from "lucide-react";
 
