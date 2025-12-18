@@ -88,7 +88,7 @@ export default function HomePage() {
               The Truth Radar for Travel Deals
             </p>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto" data-testid="hero-description">
-              Discover verified travel deals with 50-90% discounts. Real-time tracking across airlines and cruise lines.
+              Rastreamento direto dos sites oficiais de companhias aéreas e cruzeiros. Ofertas verificadas com 50-90% de desconto.
             </p>
             
             {stats && (
