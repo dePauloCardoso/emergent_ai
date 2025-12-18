@@ -126,6 +126,11 @@ export default function HomePage() {
         </div>
       )}
 
+      {/* Scraping Info */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <ScrapingInfo />
+      </div>
+
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-testid="main-content">
         <div className="flex flex-col lg:flex-row gap-8">
