@@ -74,7 +74,7 @@ export const FilterSidebar = ({ filters, onFilterChange }) => {
         {/* Info Box */}
         <div className="p-4 bg-blue-50 rounded-lg border border-blue-100" data-testid="info-box">
           <p className="text-xs text-blue-900 leading-relaxed">
-            All deals are verified in real-time and updated hourly from trusted sources.
+            <strong>Web Scraping Direto:</strong> Ofertas extraídas automaticamente dos sites oficiais e atualizadas a cada hora.
           </p>
         </div>
       </div>
