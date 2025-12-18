@@ -1,0 +1,147 @@
+{
+  "brand_identity": {
+    "name": "Volo",
+    "tagline": "The Truth Radar for Travel Deals",
+    "mission": "Expose the 50-90% off deals that airlines and cruise lines hide. Verified. Real-time. No fakes.",
+    "archetype": "The Modern Radar",
+    "emotional_tone": "Urgent, Trustworthy, Technical, Exclusive",
+    "visual_style": "Swiss-Tech Hybrid. Clean grids, high contrast, technical typography, but with the warmth of travel photography."
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Space Grotesk, sans-serif",
+      "weights": ["600", "700"],
+      "usage": "Main headlines, deal percentages, price tags. Use tight tracking (-0.02em).",
+      "fallback": "system-ui"
+    },
+    "body": {
+      "font_family": "DM Sans, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Descriptions, terms, UI elements.",
+      "fallback": "sans-serif"
+    },
+    "mono": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Flight codes, timestamps, verification hashes."
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0F172A",
+        "foreground": "#F8FAFC",
+        "description": "Slate 900 - Deep Navy for text and structural elements."
+      },
+      "background": {
+        "DEFAULT": "#F8FAFC",
+        "paper": "#FFFFFF",
+        "description": "Slate 50 for app background, Pure White for cards."
+      },
+      "accent": {
+        "DEFAULT": "#2563EB",
+        "hover": "#1D4ED8",
+        "foreground": "#FFFFFF",
+        "description": "Blue 600 - Electric Blue for primary actions and links."
+      },
+      "deal": {
+        "DEFAULT": "#F97316",
+        "foreground": "#FFFFFF",
+        "description": "Orange 500 - Used EXCLUSIVELY for discount percentages and 'Hot Deal' badges."
+      },
+      "verified": {
+        "DEFAULT": "#059669",
+        "foreground": "#FFFFFF",
+        "description": "Emerald 600 - For 'Verified' badges and trust indicators."
+      },
+      "muted": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#64748B",
+        "description": "Slate 100 bg / Slate 500 text for secondary info."
+      }
+    },
+    "gradients": {
+      "hero_glow": "radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.15) 0%, rgba(248, 250, 252, 0) 70%)",
+      "card_shine": "linear-gradient(105deg, transparent 20%, rgba(255,255,255,0.4) 25%, transparent 30%)"
+    }
+  },
+  "layout": {
+    "grid_system": "The Bento Radar",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_gap": "py-24",
+      "element_gap": "gap-6"
+    },
+    "border_radius": {
+      "card": "rounded-xl",
+      "button": "rounded-full",
+      "input": "rounded-lg"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20",
+      "secondary": "bg-white border border-slate-200 text-slate-900 hover:bg-slate-50 h-12 px-8 rounded-full font-medium transition-all",
+      "deal": "bg-deal text-white hover:bg-deal/90 h-10 px-6 rounded-full font-bold uppercase tracking-wide text-sm shadow-md shadow-deal/20"
+    },
+    "cards": {
+      "deal_card": "bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-xl hover:border-accent/30 transition-all duration-300 group relative",
+      "ticket_stub": "relative bg-slate-50 border-t border-dashed border-slate-300 p-4 flex justify-between items-center"
+    },
+    "badges": {
+      "discount": "bg-deal text-white px-3 py-1 rounded-md font-bold text-xs uppercase tracking-wider",
+      "verified": "bg-verified/10 text-verified border border-verified/20 px-2 py-0.5 rounded-full text-[10px] font-bold uppercase flex items-center gap-1"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(15, 23, 42, 0.05)",
+      "hover": "0 20px 40px -4px rgba(15, 23, 42, 0.1)"
+    },
+    "textures": {
+      "noise": "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E\")"
+    },
+    "animations": {
+      "hover_lift": "transition-transform duration-300 hover:-translate-y-1",
+      "pulse_slow": "animate-pulse duration-[3000ms]"
+    }
+  },
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1720826567970-73b2d57abde7?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "flight_card_bg": "https://images.unsplash.com/photo-1674653380444-b3cc8a318ce0?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "cruise_card_bg": "https://images.unsplash.com/photo-1724597402406-f2904a5bee40?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "tropical_dest": "https://images.unsplash.com/photo-1751699123652-c2c585e19d97?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "airport_modern": "https://images.unsplash.com/photo-1758669246636-17a5f6d972ec?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "happy_traveler": "https://images.unsplash.com/photo-1650113794972-56031832c0db?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "instructions_to_main_agent": {
+    "general": "Build a high-trust, high-urgency travel deal aggregator. The UI should feel like a 'Pro Tool' that has been made accessible to the public. Use the 'Space Grotesk' font for all numbers and headings to give it that 'Data/Radar' feel.",
+    "layout_strategy": "Use a 'Masonry' or 'Bento' grid for the deals feed. Do not use a simple list. Each deal card should look like a physical ticket or a boarding pass with a 'perforated' visual separator between the image and the details.",
+    "components": {
+      "deal_card": "Must show: Original Price (strikethrough), New Price (Huge, Orange), Discount % (Badge), and a 'Verified' checkmark. The 'Book Now' button should be the only primary action.",
+      "filters": "Place filters in a sticky sidebar or a top bar that looks like a cockpit control panel (toggles, sliders).",
+      "hero": "Split screen. Left side: Value prop text. Right side: A 3D-tilted stack of 'Ticket Cards' floating."
+    },
+    "motion": "Add subtle 'entrance' animations to the deal cards as they load (staggered fade-up). Use 'Sonner' for toast notifications when a new deal is found."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
