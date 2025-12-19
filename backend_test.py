@@ -1,15 +1,17 @@
 import requests
 import sys
 import json
+import time
 from datetime import datetime
 
-class VoloAPITester:
+class VoloWebScrapingTester:
     def __init__(self, base_url="https://travel-promo-radar-2.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.tests_run = 0
         self.tests_passed = 0
         self.test_results = []
+        self.failed_tests = []
 
     def log_test(self, name, success, details=""):
         """Log test result"""
